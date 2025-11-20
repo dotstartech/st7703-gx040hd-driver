@@ -30,6 +30,9 @@
         /* vcc-supply = <&vcc_3v3>; */
         /* iovcc-supply = <&vcc_3v3>; */
 
+        /* Rotate display 180 degrees */
+        rotation = <180>;
+
         port {
             panel_in: endpoint {
                 data-lanes = <0 1 2 3>;

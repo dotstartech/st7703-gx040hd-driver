@@ -6,3 +6,4 @@
 *.ko*
 modules.order
 Module.symvers
+*.dtbo

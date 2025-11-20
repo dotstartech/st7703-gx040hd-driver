@@ -134,7 +134,7 @@ The overlay uses `compatible = "focaltech,ft6236"` because:
 - The `edt-ft5x06` driver explicitly supports FT6236
 - FT6336U is not in the kernel's device tree bindings but works with FT6236 driver
 
-### Touch coordinates are inverted or rotated
+### Touch Coordinates
 
 The overlay includes `touchscreen-inverted-x` and `touchscreen-inverted-y` properties. You may need to adjust these based on your display orientation.
 
