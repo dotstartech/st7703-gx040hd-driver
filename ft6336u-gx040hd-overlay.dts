@@ -9,7 +9,7 @@
                  "brcm,bcm2711";
 
     fragment@0 {
-        target = <&i2c1>;
+        target = <&i2c0>;
         __overlay__ {
             status = "okay";
         };
@@ -27,7 +27,7 @@
     };
 
     fragment@2 {
-        target = <&i2c1>;
+        target = <&i2c0>;
         __overlay__ {
             #address-cells = <1>;
             #size-cells    = <0>;
@@ -45,8 +45,8 @@
 
                 touchscreen-size-x = <720>;
                 touchscreen-size-y = <720>;
-                #touchscreen-inverted-x;     /* May need adjustment based on orientation */
-                #touchscreen-inverted-y;     /* May need adjustment based on orientation */
+                touchscreen-inverted-x;
+                touchscreen-inverted-y;
             };
         };
     };
